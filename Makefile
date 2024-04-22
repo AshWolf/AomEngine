@@ -1,0 +1,2 @@
+main:
+	clang++ aom.cpp ThirdParty/box2d/src/collision/*.cpp ThirdParty/box2d/src/common/*.cpp ThirdParty/box2d/src/dynamics/*.cpp ThirdParty/box2d/src/rope/*.cpp -std=c++17 -o game_engine_linux -Wno-narrowing -O3 -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -llua5.4 -I./ThirdParty/ -I./ThirdParty/glm/ -I./ThirdParty/rapidjson -I./ThirdParty/SDL2 -I./ThirdParty/SDL_image/ -I./ThirdParty/SDL_mixer/ -I./ThirdParty/SDL_ttf/ -I./ThirdParty/Lua/ -I./ThirdParty/LuaBridge/ -I./ThirdParty/box2d/ -I./ThirdParty/box2d/src/
